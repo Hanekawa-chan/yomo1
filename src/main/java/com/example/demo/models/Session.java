@@ -36,7 +36,7 @@ public class Session {
     }
 
     public void start() {
-        System.setProperty("webdriver.opera.driver", "src/main/resources/driver/operadriver.exe");
+        System.setProperty("webdriver.opera.driver", "src/main/resources/driver/operadriver");
         driver = new OperaDriver();
         driver.get(urlLogin);
     }
