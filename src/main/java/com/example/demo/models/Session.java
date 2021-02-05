@@ -1,14 +1,12 @@
 package com.example.demo.models;
 
-import com.example.demo.controllers.MainController;
 import com.example.demo.dao.DAO;
-import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.opera.OperaDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -36,8 +34,7 @@ public class Session {
     }
 
     public void start() {
-        System.setProperty("webdriver.opera.driver", "src/main/resources/driver/operadriver");
-        driver = new OperaDriver();
+        driver = new HtmlUnitDriver();
         driver.get(urlLogin);
     }
 
