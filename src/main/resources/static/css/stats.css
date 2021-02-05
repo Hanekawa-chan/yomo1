@@ -1,0 +1,40 @@
+.main-block {
+    margin:  75px auto 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . .";
+    font-size: 72px;
+}
+
+.name {
+    text-align: right;
+}
+
+.line {
+    text-align: center;
+}
+
+.score {
+    text-align: left;
+}
+
+.green {
+    color: #02bf78;
+}
+
+.red {
+    color: #bc365c;
+}
+
+@media (max-width: 767px) {
+    .main-block  {
+      font-size: 30px;
+    }
+}

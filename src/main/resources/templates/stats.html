@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальная статистика татарско-русской киберспортивной команды YOMO (ЙОМО) ">
+    <meta name="keywords" content="yomo, команда yomo, csgo yomo, cs yomo, yomoteam, taiiiga, ilyan, meon, archi, salik">
+    <link rel="stylesheet" th:href="@{css/normalize.css}">
+    <link rel="stylesheet" th:href="@{css/main.css}">
+    <link rel="stylesheet" th:href="@{css/stats.css}">
+    <link rel="shortcut icon" href="resources\images\favicon.png" type="image/png">
+    <title>Статистика</title>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="master">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/main">Главная</a></li>
+                <li><a href="/team">Состав</a></li>
+                <li><a href="/stats">Статистика</a></li>
+                <li><a href="/citats">Цитаты</a></li>
+                <li class="right_nav"><a th:href="${not logout ? '/login' : '/logout'}" th:text="${not logout ? 'Вход' : 'Выход'}">Вход</a></li>
+                <li class="right_nav">
+                    <a href="https://github.com/blankfaceTEEN/static-yomo" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+                <li class="right_nav">
+                    <a href="#" target="_blank">
+                        Telegram
+                    </a>
+                </li>
+                <li class="right_nav">
+                    <a href="https://www.youtube.com/channel/UCsQFHRAFzfJbW8pM2h2F2tQ/featured" target="_blank">
+                        YouTube
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-block">
+            <div th:class="${size} > 0 ? 'name ' + ${names[0]} : 'TYGA name'" th:text="${size} > 0 ? ${names[0]} : 'TYGA'">TAIIIGA</div>
+            <div class="line">-</div>
+            <div th:class="${size} < 1 ? 'white score' : (${rates.get(0)} >= 1? 'green score' : 'red score')" th:text="${size} > 0 ? ${rates.get(0)} : '#'">1.66</div>
+
+            <div th:class="${size} > 1 ? 'name ' + ${names[1]} : 'iLYAN name'" th:text="${size} > 1 ? ${names[1]} : 'iLYAN'">MEON</div>
+            <div class="line">-</div>
+            <div th:class="${size} < 2 ? 'white score' : (${rates.get(1)} >= 1? 'green score' : 'red score')" th:text="${size} > 1 ? ${rates.get(1)} : '#'">1.1</div>
+
+            <div th:class="${size} > 2 ? 'name ' + ${names[2]} : 'MEON name'" th:text="${size} > 2 ? ${names[2]} : 'MEON'">IL'YAN</div>
+            <div class="line">-</div>
+            <div th:class="${size} < 3 ? 'white score' : (${rates.get(2)} >= 1? 'green score' : 'red score')" th:text="${size} > 2 ? ${rates.get(2)} : '#'">0.87</div>
+
+            <div th:class="${size} > 3 ? 'name ' + ${names[3]} : 'Salik name'" th:text="${size} > 3 ? ${names[3]} : 'Salik'">SALIK</div>
+            <div class="line">-</div>
+            <div th:class="${size} < 4 ? 'white score' : (${rates.get(3)} >= 1? 'green score' : 'red score')" th:text="${size} > 3 ? ${rates.get(3)} : '#'">#</div>
+
+            <div th:class="${size} > 4 ? 'name ' + ${names[4]} : 'Archi name'" th:text="${size} > 4 ? ${names[4]} : 'Archi'">ARTUR</div>
+            <div class="line">-</div>
+            <div th:class="${size} < 5 ? 'white score' : (${rates.get(4)} >= 1? 'green score' : 'red score')" th:text="${size} > 4 ? ${rates.get(4)} : '#'">#</div>
+        </div>
+    </main>
+</div>
+
+<footer>
+    <li>
+        <a href="https://github.com/blankfaceTEEN/static-yomo" target="_blank">
+            GitHub
+        </a>
+    </li>
+    <li>
+        <a href="#" target="_blank">
+            Telegram
+        </a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/channel/UCsQFHRAFzfJbW8pM2h2F2tQ/featured" target="_blank">
+            YouTube
+        </a>
+    </li>
+</footer>
+</body>
+</html>
