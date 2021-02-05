@@ -100,10 +100,11 @@
 			<artifactId>spring-security-config</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>net.sourceforge.htmlunit</groupId>
-			<artifactId>webdriver</artifactId>
-			<version>2.6</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>htmlunit-driver</artifactId>
+			<version>2.46.0</version>
 		</dependency>
+
 
 	</dependencies>
 

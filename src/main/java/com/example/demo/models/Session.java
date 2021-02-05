@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -35,7 +35,6 @@ public class Session {
 
     public void start() {
         driver = new HtmlUnitDriver();
-        driver.get(urlLogin);
     }
 
     public void login(DAO dao){

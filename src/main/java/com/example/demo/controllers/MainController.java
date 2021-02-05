@@ -23,6 +23,12 @@ public class MainController {
         this.dao = dao;
     }
 
+    @GetMapping
+    public String index(Model model){
+        model.addAttribute("logout", session.logout);
+        return "main";
+    }
+
     @GetMapping("/main")
     public String main(Model model){
         model.addAttribute("logout", session.logout);
