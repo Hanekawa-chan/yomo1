@@ -5,13 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Официальные цитаты татарско-русской киберспортивной команды YOMO (ЙОМО) ">
+    <meta name="description" content="Вход в аккаунт">
     <meta name="keywords" content="yomo, команда yomo, csgo yomo, cs yomo, yomoteam, taiiiga, ilyan, meon, archi, salik">
-    <link rel="stylesheet" href="D:\projects\demo\src\main\resources\static\css\normalize.css" th:href="@{/css/normalize.css}">
-    <link rel="stylesheet" href="D:\projects\demo\src\main\resources\static\css\main.css" th:href="@{/css/main.css}">
-    <link rel="stylesheet" href="D:\projects\demo\src\main\resources\static\css\quotes.css" th:href="@{/css/quotes.css}">
+    <link rel="stylesheet" th:href="@{css/normalize.css}">
+    <link rel="stylesheet" th:href="@{css/main.css}">
     <link rel="shortcut icon" href="resources\images\favicon.png" type="image/png">
-    <title>Цитаты</title>
+    <title>Вход</title>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -46,15 +45,23 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <div class="flex-container">
-            <div class="quote">&#171;<span class="words">ТАТАРЫ ПОБЕДИТЕЛИ КОРОН!</span>&#187; &#169; <span class="TYGA">TAIIIGA</span></div>
-            <div class="quote">&#171;<span class="words">Хули они ноют, шо я крыса. Я шо виноват, шо это моя позиция в команде...</span>&#187; &#169; <span class="iLYAN">IL'YAN</span></div>
+    <form th:method="POST" th:action="@{/login}">
+            <label for="login">Логин</label>
+            <input type="text" id="login" name="login" th:name="login"/>
+            <br/>
+            <label for="pass">Пароль</label>
+            <input type="text" id="pass" name="pass" th:name="pass"/>
+            <br/>
+            <label for="auth">Код с телефона</label>
+            <input type="text" id="auth" name="auth" th:name="auth"/>
+            <br/>
+            <input type="submit" value="Войти"/>
+        </form>
         </div>
     </main>
 </div>
-
 <footer>
     <li>
         <a href="https://github.com/blankfaceTEEN/static-yomo" target="_blank">
@@ -74,5 +81,4 @@
     <li><a th:href="${not logout ? '/login' : '/logout'}" th:text="${not logout ? 'Вход' : 'Выход'}">Вход</a></li>
 </footer>
 </body>
-
 </html>
