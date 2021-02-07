@@ -1,0 +1,219 @@
+[INFO  - 2021-02-07T14:27:05.365Z] GhostDriver - Main - running on port 39113
+[INFO  - 2021-02-07T14:27:05.546Z] Session [8d64b660-6950-11eb-91cc-c356d46cd5b0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:27:05.546Z] Session [8d64b660-6950-11eb-91cc-c356d46cd5b0] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:27:05.546Z] Session [8d64b660-6950-11eb-91cc-c356d46cd5b0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:27:05.547Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8d64b660-6950-11eb-91cc-c356d46cd5b0
+[INFO  - 2021-02-07T14:31:33.061Z] GhostDriver - Main - running on port 5996
+[INFO  - 2021-02-07T14:31:33.490Z] Session [2d19b8e0-6951-11eb-b0f7-3194253da4e3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:31:33.490Z] Session [2d19b8e0-6951-11eb-b0f7-3194253da4e3] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:31:33.490Z] Session [2d19b8e0-6951-11eb-b0f7-3194253da4e3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:31:33.490Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2d19b8e0-6951-11eb-b0f7-3194253da4e3
+[INFO  - 2021-02-07T14:32:17.611Z] GhostDriver - Main - running on port 22699
+[INFO  - 2021-02-07T14:32:18.210Z] Session [47c173e0-6951-11eb-a3d4-9f541f5ef6f8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:32:18.210Z] Session [47c173e0-6951-11eb-a3d4-9f541f5ef6f8] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:32:18.210Z] Session [47c173e0-6951-11eb-a3d4-9f541f5ef6f8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:32:18.210Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 47c173e0-6951-11eb-a3d4-9f541f5ef6f8
+[INFO  - 2021-02-07T14:32:52.030Z] GhostDriver - Main - running on port 38132
+[INFO  - 2021-02-07T14:32:52.692Z] Session [5c4efd00-6951-11eb-8ddf-533348198687] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:32:52.692Z] Session [5c4efd00-6951-11eb-8ddf-533348198687] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:32:52.692Z] Session [5c4efd00-6951-11eb-8ddf-533348198687] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:32:52.692Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5c4efd00-6951-11eb-8ddf-533348198687
+[INFO  - 2021-02-07T14:36:27.220Z] GhostDriver - Main - running on port 4092
+[INFO  - 2021-02-07T14:36:27.921Z] Session [dc982cc0-6951-11eb-85dc-a71adac471a6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:36:27.921Z] Session [dc982cc0-6951-11eb-85dc-a71adac471a6] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:36:27.921Z] Session [dc982cc0-6951-11eb-85dc-a71adac471a6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:36:27.921Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dc982cc0-6951-11eb-85dc-a71adac471a6
+[INFO  - 2021-02-07T14:40:52.546Z] GhostDriver - Main - running on port 9286
+[INFO  - 2021-02-07T14:40:52.903Z] Session [7a895f30-6952-11eb-9128-57b6b06b7ed5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:40:52.903Z] Session [7a895f30-6952-11eb-9128-57b6b06b7ed5] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:40:52.903Z] Session [7a895f30-6952-11eb-9128-57b6b06b7ed5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:40:52.904Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7a895f30-6952-11eb-9128-57b6b06b7ed5
+[INFO  - 2021-02-07T14:43:20.296Z] GhostDriver - Main - running on port 44017
+[INFO  - 2021-02-07T14:43:20.825Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:43:20.825Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:43:20.825Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:43:20.826Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d2b47a50-6952-11eb-a98e-4b47cbc23876
+[ERROR - 2021-02-07T14:43:37.348Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2021-02-07T14:43:37.348Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  Ezvv (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  x0hG (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:30)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  (anonymous function) (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:37.588Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-02-07T14:43:37.589Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  SQr7 (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  gfbn (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  a (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:37.734Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+[ERROR - 2021-02-07T14:43:37.734Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  HighlightComment (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1542)
+  initialize (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1537)
+  klass (https://community.cloudflare.steamstatic.com/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw&_cdn=cloudflare:102)
+  InitializeCommentThread (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1377)
+  (anonymous function) (https://steamcommunity.com/id/sorryihavenoname:1070)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  fireWith (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  ready (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  J (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+[ERROR - 2021-02-07T14:43:39.082Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2021-02-07T14:43:39.082Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  Ezvv (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  x0hG (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:30)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  (anonymous function) (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:39.132Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-02-07T14:43:39.132Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  SQr7 (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  gfbn (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  a (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:39.271Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+[ERROR - 2021-02-07T14:43:39.271Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  HighlightComment (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1542)
+  initialize (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1537)
+  klass (https://community.cloudflare.steamstatic.com/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw&_cdn=cloudflare:102)
+  InitializeCommentThread (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1377)
+  (anonymous function) (https://steamcommunity.com/id/sorryihavenoname:1070)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  fireWith (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  ready (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  J (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+[ERROR - 2021-02-07T14:43:40.549Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2021-02-07T14:43:40.549Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  Ezvv (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  x0hG (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:30)
+  n (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+  (anonymous function) (https://community.cloudflare.steamstatic.com/public/javascript/webui/clientcom.js?v=BByuyLPWf_ma&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:40.556Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-02-07T14:43:40.557Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  SQr7 (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  gfbn (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/main.js?v=4LvLQLPdRnpx&l=russian&_cdn=cloudflare:15)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  t (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+  a (https://community.cloudflare.steamstatic.com/public/javascript/applications/community/manifest.js?v=6iPo_JXkqbae&l=russian&_cdn=cloudflare:15)
+[ERROR - 2021-02-07T14:43:40.601Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+[ERROR - 2021-02-07T14:43:40.601Z] Session [d2b47a50-6952-11eb-a98e-4b47cbc23876] - page.onError - stack:
+  HighlightComment (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1542)
+  initialize (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1537)
+  klass (https://community.cloudflare.steamstatic.com/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw&_cdn=cloudflare:102)
+  InitializeCommentThread (https://community.cloudflare.steamstatic.com/public/javascript/global.js?v=7-gMKXl4-IHs&l=russian&_cdn=cloudflare:1377)
+  (anonymous function) (https://steamcommunity.com/id/sorryihavenoname:1070)
+  j (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  fireWith (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  ready (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+  J (https://community.cloudflare.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC&_cdn=cloudflare:2)
+[ERROR - 2021-02-07T14:44:34.318Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1612709074261
+[INFO  - 2021-02-07T14:48:20.547Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T14:58:49.917Z] GhostDriver - Main - running on port 3486
+[INFO  - 2021-02-07T14:58:50.449Z] Session [fccdd7d0-6954-11eb-a26d-2321282d6ffb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T14:58:50.449Z] Session [fccdd7d0-6954-11eb-a26d-2321282d6ffb] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T14:58:50.449Z] Session [fccdd7d0-6954-11eb-a26d-2321282d6ffb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T14:58:50.449Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fccdd7d0-6954-11eb-a26d-2321282d6ffb
+[INFO  - 2021-02-07T15:03:49.923Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:08:49.923Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:13:49.923Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:18:49.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:23:49.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:28:49.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:33:49.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T15:38:49.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:22:58.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:27:58.069Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:32:58.069Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:37:58.090Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:42:58.107Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:47:58.122Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:52:58.135Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T17:57:58.150Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:02:58.156Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:07:58.165Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:12:58.165Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:17:58.166Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:22:58.168Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:27:58.193Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:32:58.212Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:37:58.212Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:42:58.213Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.287Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:42:58.213Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.287Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.255Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:42:58.213Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.287Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:47:58.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:52:58.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T18:57:58.256Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:02:58.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:07:58.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:12:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:17:58.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-02-07T19:22:58.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+eb-8d09-b79c696466d7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-07T19:21:42.479Z] Session [b5aac8c0-6979-11eb-8d09-b79c696466d7] - page.customHeaders:  - {}
+[INFO  - 2021-02-07T19:21:42.479Z] Session [b5aac8c0-6979-11eb-8d09-b79c696466d7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-07T19:21:42.479Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b5aac8c0-6979-11eb-8d09-b79c696466d7

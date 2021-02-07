@@ -6,7 +6,8 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
 
@@ -34,10 +35,27 @@ public class Session {
     }
 
     public void start() {
-        driver = new HtmlUnitDriver();
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true);
+
+        String path = System.getProperty("user.dir");
+        String idea = "/src/main/resources/static/driver/";
+        try {
+            System.setProperty("phantomjs.binary.path", path + idea + "phantomjs.exe");
+            driver = new PhantomJSDriver(caps);
+        }
+        catch(Exception e) {
+            System.setProperty("phantomjs.binary.path", path + "/webapps/ROOT/WEB-INF/classes/static/driver/" + "phantomjs.exe");
+            driver = new PhantomJSDriver(caps);
+        }
+
+
+        System.out.println("КАП");
+        driver.get(urlLogin);
     }
 
     public void login(DAO dao){
+        System.out.println("КАПЕЦ");
         driver.get(urlLogin);
 
         WebElement log = driver.findElement(By.id("input_username"));
@@ -47,16 +65,22 @@ public class Session {
 
         log.sendKeys(login);
         pas.sendKeys(pass);
+        System.out.println("КАПC");
         enterBut.click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("КАПE");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
+        WebElement check = driver.findElement(By.xpath("/html/body/div[4]"));
+        System.out.println(check.getAttribute("style"));
         WebElement twoAuth = driver.findElement(By.id("twofactorcode_entry"));
+        System.out.println(twoAuth.getAttribute("placeholder"));
         WebElement authDiv = driver.findElement(By.id("login_twofactorauth_buttonset_entercode")).findElement(By.className("auth_button_h3"));
-
+        System.out.println("НЕ ДОЖДАЛИСЬ");
         twoAuth.sendKeys(auth);
+        System.out.println("КЛИК НЕ ПРОИЗОШЕЛ");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         new Actions(driver).moveToElement(authDiv).click().perform();
-
+        System.out.println("КАППА");
         driver.get(url);
         driver.navigate().refresh();
         driver.get(url);
