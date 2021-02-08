@@ -129,7 +129,7 @@ public class MainController {
         session.setPass(pass);
         session.setAuth(auth);
         session.login(dao);
-        return "redirect:/main";
+        return "redirect:/stats";
     }
 
     @GetMapping("/logout")

@@ -1,15 +1,13 @@
 package com.example.demo.models;
 
 import com.example.demo.dao.DAO;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
+
+import static com.gargoylesoftware.htmlunit.BrowserVersion.BEST_SUPPORTED;
 
 public class Session {
     String login;
@@ -35,27 +33,11 @@ public class Session {
     }
 
     public void start() {
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setJavascriptEnabled(true);
-
-        String path = System.getProperty("user.dir");
-        String idea = "/src/main/resources/static/driver/";
-        try {
-            System.setProperty("phantomjs.binary.path", path + idea + "phantomjs.exe");
-            driver = new PhantomJSDriver(caps);
-        }
-        catch(Exception e) {
-            System.setProperty("phantomjs.binary.path", path + "/webapps/ROOT/WEB-INF/classes/static/driver/" + "phantomjs.exe");
-            driver = new PhantomJSDriver(caps);
-        }
-
-
-        System.out.println("КАП");
+        driver = new HtmlUnitDriver(BEST_SUPPORTED, true);
         driver.get(urlLogin);
     }
 
     public void login(DAO dao){
-        System.out.println("КАПЕЦ");
         driver.get(urlLogin);
 
         WebElement log = driver.findElement(By.id("input_username"));
@@ -65,22 +47,26 @@ public class Session {
 
         log.sendKeys(login);
         pas.sendKeys(pass);
-        System.out.println("КАПC");
         enterBut.click();
-        System.out.println("КАПE");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        WebElement check = driver.findElement(By.xpath("/html/body/div[4]"));
-        System.out.println(check.getAttribute("style"));
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         WebElement twoAuth = driver.findElement(By.id("twofactorcode_entry"));
-        System.out.println(twoAuth.getAttribute("placeholder"));
         WebElement authDiv = driver.findElement(By.id("login_twofactorauth_buttonset_entercode")).findElement(By.className("auth_button_h3"));
-        System.out.println("НЕ ДОЖДАЛИСЬ");
         twoAuth.sendKeys(auth);
-        System.out.println("КЛИК НЕ ПРОИЗОШЕЛ");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
         new Actions(driver).moveToElement(authDiv).click().perform();
-        System.out.println("КАППА");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         driver.get(url);
         driver.navigate().refresh();
         driver.get(url);
@@ -98,8 +84,8 @@ public class Session {
         }
 
         rly = false;
-
     }
+
     public void refresh(DAO dao) {
         driver.navigate().refresh();
 
@@ -108,6 +94,12 @@ public class Session {
         int n = 0;
 
         while((new Date(date)).year == 2021 || has) {
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
             for (int i = 2 + n; i <= 9 + n; i++) {
                 System.out.println(i);
                 date = driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[2]/div/div[2]/div/div[5]/table/tbody/tr["
@@ -188,4 +180,5 @@ public class Session {
 
         logout = false;
     }
+
 }
