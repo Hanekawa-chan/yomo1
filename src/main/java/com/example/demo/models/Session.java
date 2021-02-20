@@ -40,6 +40,12 @@ public class Session {
     public void login(DAO dao){
         driver.get(urlLogin);
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         WebElement log = driver.findElement(By.id("input_username"));
         WebElement pas = driver.findElement(By.id("input_password"));
         WebElement enterDiv = driver.findElement(By.id("login_btn_signin"));
@@ -95,7 +101,7 @@ public class Session {
 
         while((new Date(date)).year == 2021 || has) {
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

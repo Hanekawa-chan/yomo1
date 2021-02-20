@@ -33,3 +33,6 @@ build/
 .vscode/
 
 !**/src/main/resources/static/pix/PacketTracer800_Build212_64bit_setup-signed.exe
+
+/target
+/.idea
